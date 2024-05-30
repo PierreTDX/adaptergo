@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #63236C;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.top {
+    background-color: #D4DE43;
+    height: 15vh;
+}
+
+.logo {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(#D4DE43, #63236C);
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.address-details {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+address {
+    font-weight: 600;
+}
+
+.bottom {
+    background-color: #63236C;
+    height: 15vh;
+}
+
+@media (min-width: 400px) {
+    .logo {
+        height: 100%;
+    }
+
+    .logo img {
+        width: 400px;
+    }
+}
